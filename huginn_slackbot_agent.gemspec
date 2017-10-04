@@ -9,9 +9,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["renato.menegasso@bidu.com.br"]
 
   spec.summary       = %q{Huginn agent to send messages into slack as a bot.}
-  spec.description   = %q{Write a longer description or delete this line.}
 
-  spec.homepage      = "https://github.com/[my-github-username]/huginn_slackbot_agent"
+  spec.homepage      = "https://github.com/Bidu/huginn_slackbot_agent"
 
 
   spec.files         = Dir['LICENSE.txt', 'lib/**/*']
