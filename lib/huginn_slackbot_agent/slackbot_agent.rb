@@ -34,9 +34,6 @@ module Agents
       received_event_without_error?
     end
 
-#    def check
-#    end
-
     def receive(incoming_events)
       incoming_events.each do |event|
         interpolate_with(event) do
