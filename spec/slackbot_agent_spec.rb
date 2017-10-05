@@ -9,5 +9,10 @@ describe Agents::SlackbotAgent do
     @checker.save!
   end
 
-  pending "add specs here"
+  describe '#working?' do
+    it 'checks if events have error' do
+      @checker.error "oh no!"
+      expect(@checker.reload).not_to be_working # There is a recent error
+    end
+  end
 end
