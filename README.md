@@ -1,8 +1,7 @@
 # SlackbotAgent
+[![Build Status](https://travis-ci.org/Bidu/huginn_slackbot_agent.svg?branch=rm-initial-version)](https://travis-ci.org/Bidu/huginn_slackbot_agent)
 
-Welcome to your new agent gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/huginn_slackbot_agent`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Huginn agent to send messages as a slack bot, not only webhook way
 
 ## Installation
 
@@ -20,10 +19,6 @@ And then execute:
 
     $ bundle
 
-## Usage
-
-TODO: Write usage instructions here
-
 ## Development
 
 Running `rake` will clone and set up Huginn in `spec/huginn` to run the specs of the Gem in Huginn as if they would be build-in Agents. The desired Huginn repository and branch can be modified in the `Rakefile`:
@@ -40,7 +35,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/huginn_slackbot_agent/fork )
+1. Fork it ( https://github.com/Bidu/huginn_slackbot_agent/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
