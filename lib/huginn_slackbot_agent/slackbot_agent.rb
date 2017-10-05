@@ -18,8 +18,8 @@ module Agents
 
     def default_options
       {
-        'channel' => '',
-        'text' => '',
+        'channel' => '#general',
+        'text' => 'It works',
         'as_user' => true,
         'attachments' => []
       }
